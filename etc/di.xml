@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <preference for="Magento\Customer\Model\ResourceModel\AddressRepository" type="Zorn\OptionalTelephone\Model\ResourceModel\AddressRepository" />
+    <preference for="Magento\Customer\Model\ResourceModel\AddressRepository" type="Codex\PhoneNotRequired\Model\ResourceModel\AddressRepository" />
 
     <type name="Magento\Customer\Model\Address\AbstractAddress">
         <plugin name="codex_phonenotrequired_plugin_magento_customer_model_address_abstractaddress" type="Codex\PhoneNotRequired\Plugin\Magento\Customer\Model\Address\AbstractAddress" sortOrder="1"/>

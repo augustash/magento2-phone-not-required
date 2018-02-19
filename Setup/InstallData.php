@@ -1,5 +1,5 @@
 <?php
-namespace Zorn\OptionalTelephone\Setup;
+namespace Codex\PhoneNotRequired\Setup;
 
 use Magento\Eav\Setup\EavSetup;
 use Magento\Eav\Setup\EavSetupFactory;
@@ -7,11 +7,6 @@ use Magento\Framework\Setup\InstallDataInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
 
-/**
- * Class InstallData
- *
- * @package Zorn\OptionalTelephone\Setup
- */
 class InstallData implements InstallDataInterface
 {
     /**
